@@ -1,0 +1,38 @@
+.game-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-area {
+    background: #222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.chat-input {
+    width: 100%;
+    padding: 5px;
+}
+
+.players-list {
+    background: #444;
+    color: white;
+    padding: 10px;
+    min-width: 100px;
+}

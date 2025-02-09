@@ -1,0 +1,41 @@
+.inventory {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.items-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inventory-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.inventory-tabs button {
+  padding: 8px 16px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.inventory-tabs button.active {
+  background: #aaa;
+  font-weight: bold;
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item-list p {
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
